@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $Bg-header;
+    padding: 10px;  
+    flex-direction: column;
+    
+}
+header a{  
+    text-decoration: none;
+    color: $header-a-color;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.linksMenu  ul li{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    
+    }
+.linksMenu ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+nav a:hover{
+    color:$nav-a-hover-color;
+}
+ .logoMenu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoMenu img{
+    display:flex;
+    justify-content: center;
+    height: 70px ;
+}
+// a {
+//     color:rgb(112, 73, 1);
+    
+// }
+
+//  =============== VERSION ESCRITORIO HEADER ===================
+
+@media (min-width: 720px){
+
+    header {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+        
+    }
+        
+    .contenedorHeader {
+        display:flex;
+        justify-content:space-between ;
+        align-items: center;        
+        flex-direction: row;
+    }
+    
+    header.logoMenu {
+        display:flex;
+        justify-content: center;
+        
+    } 
+    header {
+        display:flex;
+        justify-content: space-between;
+        padding-left: 30px;
+    }
+    header .contenedorHeader ul li{
+        margin-right: 20px;
+    }
+    header .contenedorHeader a {
+        font-size: 18px;
+    }
+}

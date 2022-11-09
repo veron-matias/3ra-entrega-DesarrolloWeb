@@ -1,0 +1,37 @@
+/* estilos generales */
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(115, 115, 115); 
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+p {
+    font-family: sans-serif;
+}
+/* 
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;} */
+
+button {
+
+}
+header .contenedor {
+    margin: 0 30px;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+    
+}

@@ -1,0 +1,237 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/intro2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+    font-size: 5vh;
+}
+
+/* PRIMER SECTION DE INDEX  */
+#officeMain .contenedorImagenMain{
+    display:none;
+}
+
+#officeMain .contenedor {
+    color:rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 15px;
+    /* background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.6)
+    )
+    ,url("./img/theOfficeMain2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+    background-color: rgb(26, 26, 26);
+}
+
+/* SECTION MULTIMEDIA DE INDEX */
+#multimedia .contenedor {
+
+}
+
+#multimedia .videoMemesYT {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+
+    min-width: 45%;
+    max-width: 660px;
+}
+#multimedia h2 {
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+#multimedia .parrafoMultimedia{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+/* SECTION NOTICIAS DE INDEX  */
+#noticias {
+    background-color: rgb(26, 26, 26);
+    color:rgb(220, 220, 220);
+    padding: 40px 0px;
+}
+#noticias h2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#noticias .divNoticiasIndex{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 15px;
+    
+}
+#noticias .divNoticiasImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#noticias a{
+    color: rgb(146, 60, 132);
+    text-decoration: none;
+}
+
+/* section dondeVer INDEX HTML */
+
+#dondeVer .contenedor{
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin:auto;
+}
+#dondeVer h2{
+    margin-top: 45px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+// ========== VERSION ESCRITORIO =============
+
+@media (min-width: 720px){
+    /* ========= section hero en index.html ============ */
+    #hero {
+        height: 90vh;
+    }
+    #hero h1{
+        font-size: 15vh;
+    }
+
+    /* ==== section office main en index.html == */
+    #officeMain{
+        background-color: rgb(26, 26, 26);
+    }
+    #officeMain .contenedorImagenMain Img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    #officeMain .contenedorImagenMain {
+        display: flex;
+        min-width: 45%;
+        max-width: 600px;
+        margin:auto;
+        padding: 0 10px;
+    
+    }
+
+    #officeMain p{
+        text-align: justify;
+        margin: 0 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* MULTIMEDIA EN INDEX.HTML  */
+    #multimedia .contenedor{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 80px auto;
+    }
+    #multimedia .parrafoMultimedia {
+        display:inline-block;
+        width: 45%;
+    }
+
+    #multimedia .parrafoMultimedia p{
+        display:inline-block;
+        text-align: justify;
+        margin: 0 30px;
+        align-items: center;
+        justify-content: center;   
+    } 
+    #multimedia .videoMemesYT {
+        display: flex;
+        min-width: 45%;
+        max-width: 660px;
+        margin:auto;
+        padding: 0 10px;
+    }
+
+    /* SECTION NOTICIAS EN INDEX.HTML  */
+
+    #noticias .contenedor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 100px 15px;
+    }
+    #noticias .divNoticiasIndex {
+        display:inline-block;
+    }
+    #noticias .divNoticiasImg Img{
+        width: 100%;
+    }
+    #noticias .divNoticiasImg {
+        display: flex;
+        min-width: 45%;
+        max-width: 600px;
+        margin:auto;
+        /* padding: 0 10px; */
+        
+    }
+
+    #noticias p{
+        display: inline-block;
+        text-align: justify;
+        margin: 0 30px;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    /* SECTION DONDE VER EN INDEX.HTML  */
+
+    #dondeVer .contenedor {
+        display:flex;
+        
+    }
+    #dondeVer .divVerAhoraLinks {
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    #dondeVer .boxImg {
+        width: 100%;
+        height: 90%;
+        /* border:fuchsia; */
+    }
+
+}
+
+

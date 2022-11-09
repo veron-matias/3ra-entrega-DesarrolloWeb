@@ -1,0 +1,19 @@
+===== Tercera entrega - Verón Matias  =====
+
+::::: Correcciones vistas por el tutor en la 2° entrega ::::
+- Se corrigío el problema del enlace de la imagen del menu en todos los HTMLS, ya que la imagen no se direccionaba al index.html en la mayoria de las paginas.
+
+::::: Cambios en etiquetas HTML, textos e imagenes :::::
+- Se agrega content description en <head>.
+- Se agrega keywords description en <head>.
+- Se completa los <ALT> con las descripciones correspondientes.
+- El texto lorem restante es reemplazado por texto propio. 
+- Imagenes anteriormente subidas en el repositorio de github fueron eliminadas por deshuso. 
+- Imagenes redimensionadas y optimizadas.
+
+::::: Utilizacion de SASS :::::
+- Todos los efectos de la pagina, el menu / header, footer y el contenido del estilo del aplicado al index.html se encuentran dentro de la carpeta componentes, cada uno con su nombre y extension *.scss.  
+- Las variables y el contenido general de la pagina se encuentran en la carpeta base cada uno con su nombre y extension *.scss.
+- Todo el estilo de la segunda entrega (css.css) se renombra a _oldVersion.scss.
+- Todo el contenido general, efectos, estilos de menu, footer e index, fueron eliminados del css antiguo, dejando a _oldVersion.scss funcional y optimizado sin codigo repetido. 
+

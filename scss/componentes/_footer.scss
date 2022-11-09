@@ -1,0 +1,25 @@
+footer{
+    display:flex;
+    text-align: center;
+    margin-top:auto;
+    justify-content: center;
+}
+.divFooter{
+    background-color: rgb(145,145,145); 
+    justify-content: center;
+    align-items: center;    
+}
+
+.divFooter p{
+    font-family: sans-serif;
+    font-size: 12px; 
+    color: black;
+    margin: 10px 15px;
+    }
+
+    .divVolverArriba{
+        display:none;
+    }
+
+
+/* === fin footer ===  */
